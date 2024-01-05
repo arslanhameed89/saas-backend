@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "module": "commonjs",
+    "allowJs": true,
     "declaration": true,
     "removeComments": true,
     "emitDecoratorMetadata": true,
@@ -12,8 +13,12 @@
     "baseUrl": "./",
     "incremental": true,
     "skipLibCheck": true,
-    "strict": false
+    "strict": false,
+    "noEmit": true
   },
-  "include": ["src/**/*"]
+  "files": [
+    "ormconfig.ts"
+  ],
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
 }
-//yarn typeorm migration:generate -d ./orm.config.ts
