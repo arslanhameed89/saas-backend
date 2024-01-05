@@ -114,5 +114,9 @@ curl --location 'http://localhost:3050/graphql' \
 [![User Listing](https://i.postimg.cc/W49LfHFH/Screen-Shot-2024-01-05-at-9-38-27-AM.png)](https://postimg.cc/XZyzrxgf)
 
 
+### GraphQL Schema
+
+[![GraphQL Schema](https://i.postimg.cc/YCV7RP5q/Screen-Shot-2024-01-05-at-10-15-07-AM.png)](https://postimg.cc/ZWrXKwY1)
+
 Happy Coding :)
 
